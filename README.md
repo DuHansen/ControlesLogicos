@@ -102,7 +102,7 @@ User.findOne({ where: { id: userId } })
 XSS ocorre quando scripts maliciosos são injetados em páginas web. Para prevenir XSS:
 
 ### Soluções Manuais:
-- **Escape de dados: Sempre escape dados antes de renderizá-los no HTML.
+- Escape de dados: Sempre escape dados antes de renderizá-los no HTML.
 JavaScript
 const escapeHtml = (unsafe) => {
   return unsafe
@@ -121,7 +121,7 @@ const DOMPurify = require('dompurify');
 const cleanHtml = DOMPurify.sanitize(dirtyHtml);
 
 ## 3. Cross-Site Request Forgery (CSRF)
-- **CSRF ocorre quando um atacante faz com que um usuário autenticado execute ações indesejadas. Para prevenir CSRF:
+- CSRF ocorre quando um atacante faz com que um usuário autenticado execute ações indesejadas. Para prevenir CSRF:
 
 ### Soluções Manuais:
 Tokens CSRF: Gere e valide tokens CSRF para cada requisição que modifica dados.
