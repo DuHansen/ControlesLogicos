@@ -1,0 +1,26 @@
+{
+  "name": "controleslogicos",
+  "version": "1.0.0",
+  "description": "A simple TODO list application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "todo",
+    "express",
+    "sqlite3"
+  ],
+  "author": "Seu Nome",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "csurf": "^1.11.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "express-session": "^1.18.0",
+    "helmet": "^8.0.0",
+    "sqlite3": "^5.1.7"
+  }
+}
